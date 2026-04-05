@@ -1,6 +1,6 @@
-# 版权https://github.com/royalneverwin/beating-heart
+# copyright https://github.com/royalneverwin/beating-heart
 
-from tkinter import * # Python 实现GUI界面的包
+from tkinter import * # Python packages for implementing GUI interfaces
 from math import sin, cos, pi, log
 import random
 import time
@@ -142,7 +142,7 @@ def draw(root: Tk, canvas: Canvas, heart: Heart, frame=0):
 
 if __name__ == '__main__':
     root = Tk()
-    root.title('漂亮宝贝一周年快乐')
+    root.title('Beautiful Heart')
     canvas = Canvas(root, bg='black', height=CANVAS_HEIGHT, width=CANVAS_WIDTH)
     canvas.pack()
     heart = Heart(20)
